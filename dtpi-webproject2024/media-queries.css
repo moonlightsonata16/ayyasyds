@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 90%; /* static width container always stays at this width no matter what the window size */
+    }
+.half_container { /* provides a two column presentation */
+  width: 80%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    ul#menu li a.button {
+        /* this padding defines the size of the buttons */
+        padding: 20px 75px;
+    }
+    iframe{
+        width: 100%;
+    }
+    #title-page{
+        width: 100%;
+        margin-top: 200px; /* provides a lot of space above title to view the background image */
+      }
+      #splash{
+        height: 748px;
+        background-size: 1060px;
+}
+p{
+    font-size: 1em;
+}
+    
+}
+
+@media screen and (max-width: 767px) {
+    ul#menu li a.button {
+        /* this padding defines the size of the buttons */
+        padding: 20px 32px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #credits img{
+        width: 100px;
+    }
+    #title-page{
+        width: 100%;
+        margin-top: 50px; /* provides a lot of space above title to view the background image */
+      }
+      #splash{
+        height: 542px;
+         background-size: 767px;
+}
+}
+
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+        /* this padding defines the size of the buttons */
+        padding: 10px;
+        font-size: 0.9em;
+   }
+    #title-page{
+        width: 100%;
+        margin-top: 60px; /* provides a lot of space above title to view the background image */
+      }
+      #splash{
+        height: 340px;
+         background-size: 480px;
+}
+}
